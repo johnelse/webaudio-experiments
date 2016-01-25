@@ -28,7 +28,7 @@ function toggleSource() {
 
 function updateCutoff() {
     filter.frequency.value = cutoff.value;
-    info.innerHTML = filter.frequency.value;
+    info.innerHTML = "cutoff frequency = " + filter.frequency.value;
 }
 
 function init() {
