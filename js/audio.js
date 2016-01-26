@@ -1,7 +1,7 @@
 var context;
 
 var info, source, filter;
-var running = false
+var running = false;
 
 var toggle, cutoff;
 
